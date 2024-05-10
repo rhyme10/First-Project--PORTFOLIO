@@ -1,0 +1,83 @@
+.Header{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    gap:35px;
+
+}
+.Header img{
+    margin-top:150px;
+    border-radius: 60px;
+}
+.Header h1{
+    text-align:center;
+    width:70%;
+    font-size: 90px;
+    font-weight:600px;
+
+}
+.Header h1 span{
+    background:linear-gradient(267deg,orange 0.36%, purple 102.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Header-action{
+    display:flex;
+    align-items:24px;
+    gap:25px;
+    font-size:24px;
+    font-weight: 500;
+    margin-bottom :50px;
+}
+.Header-connect{
+    padding: 25px 45px;
+    border-radius: 50px;
+    background:linear-gradient(267deg,orange 0.36%, purple 102.06%);
+
+}
+.Header-connect:hover{
+    border:2px solid white;
+}
+.Header-resume{
+    padding:25px 75px;
+    border-radius:50px;
+    border: 2px solid white;
+    cursor:pointer;
+}
+.Header-resume:hover{
+    border-color: rgb(13, 252, 81);
+}
+@media(max-widht:768px){
+    .Header img{
+        margin-top: 120px;
+        width: 260px;
+
+    }
+    .Header h1{
+        margin-top: 50px;
+        width: 90%;
+        font-size: 50px;
+
+    }
+    .Header p{
+        width: 60%;
+        font-size:18px;
+        line-height: 32px;
+        margin: 10px 30px;
+    }
+    .Header-action{
+        gap:16px;
+        font-size:18px;
+        font-weight: 550px;
+        margin-bottom: 50px;
+    }
+    .Header-connect {
+        padding: 20px 50px;
+        border-radius: 40px;
+    }
+
+
+    
+
+}
